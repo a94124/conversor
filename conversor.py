@@ -9,7 +9,8 @@ if __name__ == "__main__":
     op1 = int(input("> "))
 
     if op1 == 1:
-        print("(1) m -> km, (2) km -> m")
+        print("(1) m -> km")
+        print("(2) km -> m")
         op2 = int(input("> "))
 
         if op2 == 1:
